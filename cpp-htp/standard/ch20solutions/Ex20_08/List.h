@@ -42,7 +42,7 @@ List< NODETYPE >::List()
 template< typename NODETYPE >
 List< NODETYPE >::List( const List<NODETYPE> &copy )
 {
-   firstPtr = lastPtr = 0; // initialize pointers
+   firstPtr = lastPtr = 0; // initialize pointers_and_references
 
    ListNode< NODETYPE > *currentPtr = copy.firstPtr;
 

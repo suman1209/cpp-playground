@@ -13,7 +13,7 @@
 StrVec::StrVec(const StrVec &s)
 {
     /**
-     * @brief newData is a pair of pointers pointing to newly allocated and copied
+     * @brief newData is a pair of pointers_and_references pointing to newly allocated and copied
      *                  range : [b, e)
      */
     std::pair<std::string*, std::string*>
@@ -154,7 +154,7 @@ void StrVec::reallocate()
  * @brief   allocate new space for the given range and copy them into it
  * @param b
  * @param e
- * @return  a pair of pointers pointing to [first element , one past the last) in the new space
+ * @return  a pair of pointers_and_references pointing to [first element , one past the last) in the new space
  */
 std::pair<std::string *, std::string *>
 StrVec::alloc_n_copy(std::string *b, std::string *e)

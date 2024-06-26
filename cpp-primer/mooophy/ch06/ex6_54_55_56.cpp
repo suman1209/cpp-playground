@@ -7,7 +7,7 @@
 //
 // Exercise 6.55:
 // Write four functions that add, subtract, multiply, and divide
-// two int values. Store pointers to these functions in your
+// two int values. Store pointers_and_references to these functions in your
 // vector from the previous exercise.
 //
 // Exercise 6.56:
@@ -28,7 +28,7 @@ typedef decltype(f) fp;//fp is just a function type not a function pointer
 
 //
 // @brief Exercise 6.55
-// @note  Store pointers to these functions in the vector
+// @note  Store pointers_and_references to these functions in the vector
 //
 inline int NumAdd(const int n1, const int n2)  { return n1 + n2; }
 inline int NumSub(const int n1, const int n2)  { return n1 - n2; }

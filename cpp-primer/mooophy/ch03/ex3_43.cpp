@@ -20,7 +20,7 @@ int main()
         for (size_t j = 0; j != 4; ++j) cout << arr[i][j] << " ";
     cout << endl;
 
-    // using pointers.
+    // using pointers_and_references.
     for (int(*row)[4] = arr; row != arr + 3; ++row)
         for (int *col = *row; col != *row + 4; ++col) cout << *col << " ";
     cout << endl;

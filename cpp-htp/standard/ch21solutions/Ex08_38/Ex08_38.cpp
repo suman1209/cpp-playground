@@ -53,7 +53,7 @@ char *stringCopy1( char *s1, const char *s2 )
    return s1;
 } // end function stringCopy1
 
-// copying string with pointers and pointer arithmetic
+// copying string with pointers_and_references and pointer arithmetic
 char *stringCopy2( char *s1, const char *s2 )
 {
    char *ptr = s1;
@@ -76,7 +76,7 @@ char *stringNCopy1( char *s1, const char *s2, unsigned n )
    return s1;
 } // end function stringNCopy1
 
-// string copy using pointers
+// string copy using pointers_and_references
 char *stringNCopy2( char *s1, const char *s2, unsigned n )
 {
    char *ptr = s1;
@@ -102,7 +102,7 @@ char *stringCat1( char *s1, const char *s2 )
    return s1;
 } // end function stringCat1
 
-// string concatenation using pointers
+// string concatenation using pointers_and_references
 char *stringCat2( char *s1, const char *s2 )
 {
    char *ptr = s1;
@@ -131,7 +131,7 @@ char *stringNCat1( char *s1, const char *s2, unsigned n )
    return s1;
 } // end function stringNCat1
 
-// another form of string concatenation using pointers
+// another form of string concatenation using pointers_and_references
 char *stringNCat2( char *s1, const char *s2, unsigned n )
 {
    char *ptr = s1;

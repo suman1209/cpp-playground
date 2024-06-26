@@ -31,7 +31,7 @@ unsigned long stringLength1( const char *sPtr )
    return length;
 } // end function stringLength1
 
-// finding string length using pointers
+// finding string length using pointers_and_references
 unsigned long stringLength2( const char *sPtr )
 {
    int length;

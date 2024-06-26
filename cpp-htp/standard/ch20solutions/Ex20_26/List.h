@@ -199,7 +199,7 @@ bool List< NODETYPE >::insertByLocation(
       return true; // successful insertion
    } // end else
 
-   // pointers used to keep track of current node,
+   // pointers_and_references used to keep track of current node,
    // previous node and new node
    ListNode< NODETYPE > *currentPtr = firstPtr->nextPtr,
       *previousPtr = firstPtr, *newPtr = getNewNode( value );
@@ -245,7 +245,7 @@ bool List< NODETYPE >::deleteNodeByValue(
       return removeFromFront( deletedVal ); // remove from the front
    else // search through list for value specified
    {
-      // pointers used to keep track of current and previous nodes
+      // pointers_and_references used to keep track of current and previous nodes
       ListNode< NODETYPE > *currentPtr = firstPtr, *previousPtr;
 
       // loop until end of list reached
@@ -289,7 +289,7 @@ bool List< NODETYPE >::deleteNodeByLocation(
    else if ( location == 0 ) // index 0, remove from front of list
       return removeFromFront( deletedValue );
 
-   // keep track of current and previous pointers
+   // keep track of current and previous pointers_and_references
    ListNode< NODETYPE > *currentPtr = firstPtr->nextPtr,
       *previousPtr = firstPtr;
 

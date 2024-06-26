@@ -42,7 +42,7 @@ void print(std::ostream &os, const wy_queryResult &qr)
              <<qr.getCounter()
                <<" times :\n";
 
-    // fetch smart pointers to the map and the file
+    // fetch smart pointers_and_references to the map and the file
     auto sp_m = qr.getSp_Qmap();
     auto sp_f = qr.getSp_file();
 

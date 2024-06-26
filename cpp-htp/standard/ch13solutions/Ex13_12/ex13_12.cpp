@@ -21,7 +21,7 @@ int main()
    // set floating-point output formatting
    cout << fixed << setprecision( 2 );
 
-   // create vector of four base-class pointers
+   // create vector of four base-class pointers_and_references
    vector < Employee * > employees( 4 );
 
    // initialize vector with Employees
@@ -72,7 +72,7 @@ int main()
       cout << endl;
    } // end for   
  
-   // release objects pointed to by vector’s elements
+   // release objects pointed to by vectorï¿½s elements
    for ( size_t j = 0; j < employees.size(); j++ ) 
    {
       // output class name

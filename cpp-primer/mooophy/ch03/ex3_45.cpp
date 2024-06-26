@@ -17,7 +17,7 @@ int main()
             cout << ia[i][j] << " ";
     cout << endl;
 
-    // using pointers.
+    // using pointers_and_references.
     for (auto p = ia; p != ia + 3; ++p)
         for (int *q = *p; q != *p + 4; ++q)
             cout << *q << " ";

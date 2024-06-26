@@ -150,7 +150,7 @@ class D1 : public Base1 {/* ... */};
 class D2 : public Base2 {/* ... */};
 class MI : public D1, public D2 {/* ... */};
 
-//Using the following pointers, determine which funciton is used in each call:
+//Using the following pointers_and_references, determine which funciton is used in each call:
 
 Base1 *pb1 = new MI;
 Base2 *pb2 = new MI;

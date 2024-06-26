@@ -1,7 +1,7 @@
 // @Yue Wang
 //
 // Exercise 6.22:
-// Write a function to swap two int pointers.
+// Write a function to swap two int pointers_and_references.
 //
 #include <iostream>
 #include <string>

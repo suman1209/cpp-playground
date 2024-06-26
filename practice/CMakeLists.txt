@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.6)
+project(tutorial_practice)
+add_library(util src/utils/util.h src/utils/util.cpp)
+add_executable(main src/main.cpp)
+target_link_libraries(main util)

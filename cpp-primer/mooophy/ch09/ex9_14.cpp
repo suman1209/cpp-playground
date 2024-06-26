@@ -1,7 +1,7 @@
 // @Yue Wang @pezy
 //
 // Exercise 9.14:
-// Write a program to assign the elements from a list of char* pointers
+// Write a program to assign the elements from a list of char* pointers_and_references
 // to C-style character strings
 //
 

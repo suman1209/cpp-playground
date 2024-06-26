@@ -20,7 +20,7 @@
 //  Thus, the virtual net_price functions called are Quote::net_price. As a result,
 //  no discount was applied. The outcome was 9090
 //
-//  The objects held for this exercise are smart pointers to the Quote objects.In this
+//  The objects held for this exercise are smart pointers_and_references to the Quote objects.In this
 //  case, polymorphism happened as expected.The actual virtual functions being called
 //  are Bulk_quote::net_price that ensure discount is applied.Thus, the outcome is 6363.
 //  It can be found that 30% discount has been applied to the price calculation.

@@ -66,7 +66,7 @@ template<typename T>
 Vec<T>::Vec(const Vec &v)
 {
     /**
-     * @brief newData is a pair of pointers pointing to newly allocated and copied
+     * @brief newData is a pair of pointers_and_references pointing to newly allocated and copied
      *        from range : [b, e)
      */
     std::pair<T*, T*> newData = alloc_n_copy(v.begin(), v.end());
@@ -209,7 +209,7 @@ void Vec<T>::resize(std::size_t n, const T &t)
  * @brief   allocate new space for the given range and copy them into it
  * @param b
  * @param e
- * @return  a pair of pointers pointing to [first element , one past the last) in the new space
+ * @return  a pair of pointers_and_references pointing to [first element , one past the last) in the new space
  */
 template<typename T>
 std::pair<T*, T*>

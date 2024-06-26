@@ -41,7 +41,7 @@ std::string debug_rep(const T& t)
     return ret.str();
 }
 
-// print pointers as their pointer value, followed by the object to which the pointer points
+// print pointers_and_references as their pointer value, followed by the object to which the pointer points
 template<typename T> 
 std::string debug_rep(T* p)
 {
@@ -62,7 +62,7 @@ std::string debug_rep(const std::string &s)
     return '"' + s + '"';
 }
 
-// convert the character pointers to string and call the string version of debug_rep
+// convert the character pointers_and_references to string and call the string version of debug_rep
 std::string debug_rep(char *p)
 {
     return debug_rep(std::string(p));
